@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Portal Dashboard</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="top-header">
+        <div class="logo">Student Portal</div>
+        <div class="search-container">
+            <i class="fas fa-search"></i>
+            <input type="text" placeholder="Search courses, assignments...">
+        </div>
+        <div class="user-profile-area">
+            <div class="notification">
+                <i class="far fa-bell"></i>
+                <div class="badge"></div>
+            </div>
+            <div class="profile-info">
+                <div class="avatar"><i class="far fa-user"></i></div>
+                <div class="user-details">
+                    <h4>Umar Hayat</h4>
+                    <p>Student ID: SE-401</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="main-container">
+        <aside class="sidebar">
+            <a href="#" class="nav-item active"><i class="fas fa-th-large"></i> Dashboard</a>
+            <a href="#" class="nav-item"><i class="fas fa-book-open"></i> My Courses</a>
+            <a href="#" class="nav-item"><i class="far fa-calendar-check"></i> Attendance</a>
+            <a href="#" class="nav-item"><i class="fas fa-file-alt"></i> Results</a>
+        </aside>
+
+        <main class="content-area">
+            
+            <div class="left-panel">
+                
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-icon blue"><i class="fas fa-book"></i></div>
+                        <p>Total Courses</p>
+                        <h3>6</h3>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon green"><i class="fas fa-clipboard-check"></i></div>
+                        <p>Attendance</p>
+                        <h3>92%</h3>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon purple"><i class="fas fa-file-invoice"></i></div>
+                        <p>Current GPA</p>
+                        <h3>3.75</h3>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon orange"><i class="far fa-calendar-alt"></i></div>
+                        <p>Assignments Due</p>
+                        <h3>4</h3>
+                    </div>
+                </div>
+
+                <div class="section-header">
+                    <h2>My Courses</h2>
+                    <p>Track your progress across all enrolled courses</p>
+                </div>
+
+                <div class="courses-grid">
+                    <div class="course-card">
+                        <div class="course-header">
+                            <div class="course-icon"><i class="fas fa-book-open"></i></div>
+                            <div class="course-info">
+                                <h4>HCI</h4>
+                                <p>Dr. Hamid Ullah</p>
+                            </div>
+                        </div>
+                        <div class="course-progress-area">
+                            <div class="progress-text-left">
+                                <p>Course Progress</p>
+                                <h5>75% Complete</h5>
+                            </div>
+                            <div class="circular-progress prog-75">
+                                <span class="progress-value">75%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="course-card">
+                        <div class="course-header">
+                            <div class="course-icon"><i class="fas fa-book-open"></i></div>
+                            <div class="course-info">
+                                <h4>Machine Learning</h4>
+                                <p>Dr. Faheem Ullah</p>
+                            </div>
+                        </div>
+                        <div class="course-progress-area">
+                            <div class="progress-text-left">
+                                <p>Course Progress</p>
+                                <h5>60% Complete</h5>
+                            </div>
+                            <div class="circular-progress prog-60">
+                                <span class="progress-value">60%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="course-card">
+                        <div class="course-header">
+                            <div class="course-icon"><i class="fas fa-book-open"></i></div>
+                            <div class="course-info">
+                                <h4>SPM</h4>
+                                <p>Engr. Lubna</p>
+                            </div>
+                        </div>
+                        <div class="course-progress-area">
+                            <div class="progress-text-left">
+                                <p>Course Progress</p>
+                                <h5>75% Complete</h5>
+                            </div>
+                            <div class="circular-progress prog-75">
+                                <span class="progress-value">75%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="course-card">
+                        <div class="course-header">
+                            <div class="course-icon"><i class="fas fa-book-open"></i></div>
+                            <div class="course-info">
+                                <h4>SQE</h4>
+                                <p>Engr. Zia Ullah</p>
+                            </div>
+                        </div>
+                        <div class="course-progress-area">
+                            <div class="progress-text-left">
+                                <p>Course Progress</p>
+                                <h5>60% Complete</h5>
+                            </div>
+                            <div class="circular-progress prog-60">
+                                <span class="progress-value">60%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="right-panel">
+                
+                <div class="side-card">
+                    <h3 class="side-card-title"><i class="far fa-calendar-alt"></i> Academic Calendar</h3>
+                    
+                    <div class="list-item">
+                        <h5>HCI Lab Session</h5>
+                        <div class="list-item-footer">
+                            <span>Mar 12</span>
+                            <span>10:00 AM</span>
+                        </div>
+                    </div>
+                    
+                    <div class="list-item">
+                        <h5>ML Assignment Due</h5>
+                        <div class="list-item-footer">
+                            <span>Mar 14</span>
+                            <span>11:59 PM</span>
+                        </div>
+                    </div>
+
+                    <div class="list-item">
+                        <h5>SPM Presentation</h5>
+                        <div class="list-item-footer">
+                            <span>Mar 16</span>
+                            <span>2:00 PM</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="side-card">
+                    <h3 class="side-card-title"><i class="fas fa-bullhorn"></i> Latest Announcements</h3>
+                    
+                    <div class="list-item">
+                        <h5>Mid-term Exam Schedule</h5>
+                        <div class="list-item-footer"><span>March 15, 2026</span></div>
+                    </div>
+
+                    <div class="list-item">
+                        <h5>Project Submission Deadline</h5>
+                        <div class="list-item-footer"><span>March 20, 2026</span></div>
+                    </div>
+
+                    <div class="list-item">
+                        <h5>Guest Lecture on AI Ethics</h5>
+                        <div class="list-item-footer"><span>March 18, 2026</span></div>
+                    </div>
+                </div>
+
+            </div>
+
+        </main>
+    </div>
+
+</body>
+</html>
